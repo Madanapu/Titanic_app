@@ -1,0 +1,4 @@
+import joblib
+
+# Save pipeline (model + preprocessing)
+joblib.dump(pipeline, "titanic_model_pipeline.pkl")
